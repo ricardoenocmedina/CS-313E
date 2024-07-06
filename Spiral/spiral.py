@@ -1,6 +1,6 @@
 #  File: Spiral.py
 
-#  Description:
+#  Description: 
 
 #  Student Name: Ricardo Medina
 
