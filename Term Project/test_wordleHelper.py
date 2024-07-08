@@ -1,10 +1,13 @@
 """
 File: test_wordleHelper.py
+
 Description: The purpose of this program is to test WordleHelper methods
+
 Student Name: Ricardo Medina
+
 Student UT EID: rem3885
+
 Course Name: CS 313E
-Unique Number: 50775
 """
 
 import unittest

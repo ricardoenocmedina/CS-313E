@@ -14,4 +14,4 @@ You can either:
 
 ---
 
-This code uses the tries (trees with character nodes) as well as depth-first search algorithms, recursion, and linear search, to make the script possible.
+This code uses tries (trees with character nodes) as well as depth-first search algorithms, recursion, and linear search, to make the script possible.
