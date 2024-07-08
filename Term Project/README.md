@@ -8,7 +8,7 @@ You can either:
 1. Find five-letter words based on a given prefix (i.e. prefix from 1-4 letters); 
 2. Find viable five-letter having specified a letter in a specific position; 
 3. Find words that contain a specific letter; 
-4. find words that do NOT contain a specific letter; 
+4. Find words that do NOT contain a specific letter; 
 5. Print out a list of potential words that is exported as a separate text file for the user to use; 
 6. Exit game
 
