@@ -1,7 +1,8 @@
 """
 File: Intervals.py
 
-Description: 
+Description: Takes a set of intervals and collapses all of the overlapping intervals. Orders all of the 
+             intervals in increasing order of the size of the intervals.
 
 Student Name: Ricardo Medina
 
