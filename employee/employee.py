@@ -13,10 +13,10 @@ Course Name: CS 313E
 class Employee:
 
     def __init__(self, **kwargs):
-    # Add your code here!
+        pass
 
     def __str__(self):
-    # Add your code here!
+        pass
 
 
 ############################################################
@@ -26,13 +26,16 @@ class Employee:
 class PermanentEmployee:
 
     def __init__(self, **kwargs):
+        pass
 
 
     def cal_salary(self):
+        pass
 
 
 
     def __str__(self):
+        pass
 
 
 ############################################################
@@ -43,9 +46,11 @@ class Manager :
 
     
     def cal_salary(self):
+        pass
 
 
     def __str__(self):
+        pass
 
 
 
@@ -54,12 +59,15 @@ class Manager :
 ############################################################
 class TemporaryEmployee:
     def __init__(self, **kwargs):
+        pass
         
     
     def cal_salary(self):
+        pass
         
 
     def __str__(self):
+        pass
         
 
     
@@ -72,9 +80,11 @@ class Consultant :
   
 
     def cal_salary(self):
+        pass
   
 
     def __str__(self):
+        pass
   
 ############################################################
 ############################################################
@@ -83,11 +93,14 @@ class Consultant :
 
 class ConsultantManager:
     def __init__(self,  **kwargs):
+        pass
  
 
     def cal_salary(self):
+        pass
  
     def __str__(self):
+        pass
  
 
 
