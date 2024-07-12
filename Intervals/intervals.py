@@ -9,23 +9,38 @@ Student Name: Ricardo Medina
 Student UT EID: rem3885
 
 Course Name: CS 313E
-"""
 
+Input: tuples_list is an unsorted list of tuples denoting intervals
+Output: a list of merged tuples sorted by the lower number of the
+        interval
+"""
 import sys
 
-"""
-    Input: tuples_list is an unsorted list of tuples denoting intervals
-    Output: a list of merged tuples sorted by the lower number of the
-    interval
-"""
-
-
-
 def merge_tuples (tuples_list):
-    """Merge the tuples"""
+    "This function collapses overlapping intervals"
+    tuples_list.sort()
 
-    # ADD YOUR CODE HERE ... AND REMOVE THIS Line
-    return None # Replace this 
+    new_list = []
+    i = 0
+
+    while i < len(tuples_list) - 1:
+        # if the intervals overlap, replace it with the new interval
+        if tuples_list[i][1] >= tuples_list[i + 1][0]:
+            res = (min(tuples_list[i][0], tuples_list[i + 1][0]),
+                   max(tuples_list[i][1], tuples_list[i + 1][1]))
+            
+            tuples_list[i] = res
+            del tuples_list[i + 1]
+        
+        else:
+            # base case
+            new_list.append(tuples_list[i])
+            i += 1
+
+    if tuples_list[-1] not in new_list:
+        new_list.append(tuples_list[-1])
+
+    return new_list
 
 
 
@@ -37,9 +52,13 @@ def sort_by_interval_size (tuples_list):
     lower number in the interval
     """
 
-    # Add Your Code HERE ... AND REMOVE THIS Line
+    # utilizes sort method key parameter to pass a function
+    tuples_list.sort(key = find_interval_length)
+    return tuples_list
 
-    return None # Replace this.
+def find_interval_length(item):
+    """Helper function that gets the interval size between two values"""
+    return abs(item[1] - item[0])
 
 
 
