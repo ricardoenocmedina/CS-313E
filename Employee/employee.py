@@ -1,4 +1,17 @@
+"""
+File: employee.py
 
+Description: Develop an understanding of classes and inheritance with employee example
+
+Student Name: Ricardo Medina
+
+Student UT EID: rem3885
+
+Course Name: CS 313E
+
+Input: No input is needed
+Output: Given in main()
+"""
 
 class Employee:
 
