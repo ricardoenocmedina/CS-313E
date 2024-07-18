@@ -16,10 +16,14 @@ Output: Given in main()
 class Employee:
 
     def __init__(self, **kwargs):
-        pass
+        """Initiates the name, identifier, and salary"""
+        self.name = kwargs.get('name')
+        self.identifier = kwargs.get('identifier')
+        self.salary = kwargs.get('salary')
 
     def __str__(self):
-        pass
+        """String representation of employee"""
+        return f"Employee\n{self.name}, {self.identifier}, {self.salary}"
 
 
 ############################################################
